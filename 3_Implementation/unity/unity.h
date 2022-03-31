@@ -644,4 +644,3 @@ void verifyTest(void);
 #ifdef __cplusplus
 }
 #endif
-#endif
