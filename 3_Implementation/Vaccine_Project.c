@@ -82,7 +82,7 @@ int main(){
         printf("Confirm user, enter ph.number\n");
         previous2:
         scanf("%d",&pno);
-        if(phonenumber==v[j].phone_number)
+        if(phone_number==v[j].phone_number)
             goto next2;
         else
             printf("Wrong credentials, try again\n");
