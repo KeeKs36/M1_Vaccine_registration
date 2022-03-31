@@ -1042,4 +1042,3 @@ int UnityTestMatches(void);
 #endif
 
 /* End of UNITY_INTERNALS_H */
-#endif
