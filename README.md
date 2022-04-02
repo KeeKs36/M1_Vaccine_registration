@@ -3,4 +3,3 @@
 [![Unit Testing - Unity](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/unity.yml/badge.svg)](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/unity.yml)
 [![cppcheck-action](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/cppcheck.yml)
 [![CI](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/main.yml/badge.svg)](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/main.yml)
-![code grade](https://api.codiga.io/project/32207/status/svg)
