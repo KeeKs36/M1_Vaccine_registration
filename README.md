@@ -4,4 +4,4 @@
 [![cppcheck-action](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/cppcheck.yml)
 [![CI](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/main.yml/badge.svg)](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/main.yml)
 ## Codiga
-https://api.codiga.io/project/32430/score/svg
+![code quality ](https://api.codiga.io/project/32430/score/svg)
