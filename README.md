@@ -5,3 +5,4 @@
 [![CI](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/main.yml/badge.svg)](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/main.yml)
 ## Codiga
 ![code quality ](https://api.codiga.io/project/32430/score/svg)
+[![C/C++ CI](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/c-build.yml/badge.svg)](https://github.com/KeeKs36/M1_Vaccine_registration/actions/workflows/c-build.yml)
