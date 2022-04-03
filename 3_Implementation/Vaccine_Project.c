@@ -81,7 +81,7 @@ int main(){
         // Verification
         printf("Confirm user, enter ph.number\n");
         previous2:
-        scanf("%d",&pno);
+        scanf("%d",&phonenumber);
         if(phonenumber==v[j].phone_number)
             goto next2;
         else
@@ -91,17 +91,17 @@ int main(){
 
     vaccstate=vaccine_status(j);        //State of patient based on being vaccinated
 
-    if(vaccstat==1)
+    if(vaccstate==1)
         printf("Please take your first vaccine\nYou have been vaccinated once\n");
-    else if (vaccstat==2)
+    else if (vaccstate==2)
         printf("Please take your second vaccine\nYou have been vaccinated twice\n");
-    else if (vaccstat==3)
+    else if (vaccstate==3)
         printf("You have completed two dozes of vaccination\n");
     
     // Count of total number of vaccine vials used
-    if(v[j].vaccine_type==1 && (vaccstat==1 || vaccstat==2))
+    if(v[j].vaccine_type==1 && (vaccstate==1 || vaccstate==2))
         vacc1++;
-    else if(v[j].vaccine_type==2 && (vaccstat==1 || vaccstat==2))
+    else if(v[j].vaccine_type==2 && (vaccstate==1 || vaccstate==2))
         vacc2++;
     
     attempt--;
