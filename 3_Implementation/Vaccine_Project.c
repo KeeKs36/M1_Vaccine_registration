@@ -36,7 +36,7 @@ int main(){
         while(i<=1000){
             if(v[i].aadhar==0){
                 printf("Fill details for registration\n");
-                v[i].aadhar=pd[0].aadhar;
+                v[i].aadhar=v[0].aadhar;
                 printf("Enter your phone number: ");
                 scanf("%d",&v[i].phone_number);
                 printf("Enter your age: ");
@@ -54,7 +54,7 @@ int main(){
         printf("Confirm user, enter phone number\n");
         previous1:
         scanf("%d",&phonenumber);
-        if(pno==v[j].ph_number)
+        if(phonenumber==v[j].phone_number)
             goto next1;
         else
             printf("Wrong credentials, try again\n");
@@ -82,14 +82,14 @@ int main(){
         printf("Confirm user, enter ph.number\n");
         previous2:
         scanf("%d",&pno);
-        if(phone_number==v[j].phone_number)
+        if(phonenumber==v[j].phone_number)
             goto next2;
         else
             printf("Wrong credentials, try again\n");
             goto previous2;
         }next2:
 
-    vaccstat=vaccine_status(j);        //State of patient based on being vaccinated
+    vaccstate=vaccine_status(j);        //State of patient based on being vaccinated
 
     if(vaccstat==1)
         printf("Please take your first vaccine\nYou have been vaccinated once\n");
